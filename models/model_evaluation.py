@@ -4,15 +4,7 @@
 
 
 # libraries
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-from sklearn import preprocessing
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import confusion_matrix, roc_auc_score, roc_curve, accuracy_score
+from _imports import *
 
 sns.set_style('dark', {'axes.grid' : False})
 
