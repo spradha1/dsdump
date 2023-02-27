@@ -9,8 +9,19 @@ import seaborn as sns
 # sklearn
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
-from sklearn.datasets import make_regression, make_classification, make_blobs
 from sklearn.linear_model import LinearRegression, LogisticRegression
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.svm import SVC
+from sklearn.neural_network import MLPClassifier
+from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
+from sklearn.datasets import (
+  make_regression,
+  make_classification,
+  make_blobs,
+  make_circles,
+  make_moons
+)
 from sklearn.metrics import (
   confusion_matrix,
   accuracy_score,
@@ -18,7 +29,6 @@ from sklearn.metrics import (
   roc_curve,
   mean_squared_error
 )
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
 # type hinting
 from typing import Tuple
