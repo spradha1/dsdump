@@ -7,9 +7,17 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # sklearn
-from sklearn import preprocessing
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression, LogisticRegression
+from sklearn import (
+  preprocessing,
+  datasets,
+  svm
+)
+from sklearn.model_selection import (
+  train_test_split,
+  cross_val_score,
+  KFold
+)
+from sklearn.linear_model import LinearRegression, LogisticRegression, Ridge
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC

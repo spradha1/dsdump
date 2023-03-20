@@ -5,12 +5,7 @@
 '''
 
 # libraries
-import numpy as np
-
-from sklearn.model_selection import cross_val_score, KFold
-from sklearn import datasets, svm
-from sklearn.linear_model import Ridge
-from sklearn.metrics import mean_squared_error
+from _imports import *
 
 
 # global
